@@ -4,7 +4,6 @@ import {Link as LinkScroll} from 'react-scroll';
 
 export const Nav = styled.nav`
     background: #0b0c10;
-    /* background-color: rgba(0,0,0,0.1); */
     height: 80px;
     margin-top: -80px;
     display: flex;
@@ -113,5 +112,6 @@ export const NavBtnLink = styled(LinkRouter)`
         transition: all 0.2s ease-in-out;
         background: #2c3531;
         color: #FFCB98;
+        cursor: pointer;
     }
 `;

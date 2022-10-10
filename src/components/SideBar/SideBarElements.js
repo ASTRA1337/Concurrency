@@ -54,6 +54,7 @@ export const SideBarLink = styled(LinkScroll)`
     text-decoration: none;
     list-style: none;
     transition: 0.2s ease-in-out;
+    text-decoration: none;
     //add another text-dec => none here if issues arise with css
     color: #116466;
     cursor: pointer;
