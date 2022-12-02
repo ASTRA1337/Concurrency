@@ -1,6 +1,6 @@
 import React from 'react';
 import { SideBarContainer,Icon,CloseIcon,
-  SideBarWrapper,SideBarMenu,SideBarLink,SideBartBtnWrap, SideBarRoute } from './SideBarElements';
+  SideBarWrapper,SideBarMenu,SideBarLink, SideBarBtnWrap, SideBarRoute } from './SideBarElements';
 
 const SideBar = ({IsOpen, toggle}) => {
   return (
@@ -23,9 +23,9 @@ const SideBar = ({IsOpen, toggle}) => {
               Sign Up
             </SideBarLink>
           </SideBarMenu>
-          <SideBartBtnWrap>
+          <SideBarBtnWrap>
             <SideBarRoute to='/signin'>Sign In</SideBarRoute>
-          </SideBartBtnWrap>
+          </SideBarBtnWrap>
         </SideBarWrapper>
     </SideBarContainer>
   )

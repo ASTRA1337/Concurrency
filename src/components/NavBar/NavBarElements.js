@@ -15,7 +15,7 @@ export const Nav = styled.nav`
     z-index: 10;
 
     @media screen and (max-width: 960px){
-        transintion: 0.8s all ease;
+        transition: 0.8s all ease;
     }
 `;
 
@@ -81,8 +81,9 @@ export const NavLinks = styled(LinkScroll)`
     height: 100%;
     cursor: pointer;
 
-    &.active{
+    .active{
         border-bottom: 3px solid #FFCB98;
+        
     }
 `;
 
@@ -108,7 +109,7 @@ export const NavBtnLink = styled(LinkRouter)`
     transition: all 0.2s ease-in-out;
     text-decoration: none;
 
-    &:hover{
+    :hover{
         transition: all 0.2s ease-in-out;
         background: #2c3531;
         color: #FFCB98;
